@@ -27,13 +27,7 @@ body {
   height: 40%;
 }
 
-@media (max-width: 600px) {
-  #profileImg {
-    border-radius: 10%;
-    width:  60%;
-    height: 60%;
-  }
-}
+
 
 #linkCv {
   color: #fff;
@@ -60,22 +54,31 @@ article header span {
 @media (max-width: 600px) {
   article {
     display: flex;
-    align-items: center;
     color: #fdfdfd;
     font-size:1.9rem;
-    padding: 5%;
+    padding: 2%; 
+    flex-direction: column;
+    align-items: center;
+    font-size: 80%;
   }
-
-  aside {
-    background-color: aqua;
-    font-weight: bold;
-    font-size:2rem;
-    padding: 0.5%;
-    align-items: right;
-
+  #imgLinkedin {
+    width: 29%;
+    height: 71%;
   }
+  #linkCv {
+    color: #fff;
+    opacity: 80%;
+    font-size: 60%;
+  
+  }
+  #profileImg {
+    border-radius: 10%;
+    width:  67%;
+    height: 67%;
+  }
+  
+
 }
-
 
 article {
   display: flex;
