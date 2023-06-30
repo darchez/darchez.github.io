@@ -30,12 +30,6 @@ body {
 
 }
 
-article {
-  display: flex;
-  align-items: center;
-  color: #fff;
-  font-size:2rem;
-}
 
 article header {
   display: flex;
@@ -61,11 +55,19 @@ article button {
 }
 
 
-@media (min-width: 800px) {
+
+article {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size:2rem;
+}
+
+@media (max-width: 600px) {
   article {
     display: flex;
     align-items: center;
     color: #4e0909;
-    font-size:2rem;
+    font-size:1.5rem;
   }
 }
