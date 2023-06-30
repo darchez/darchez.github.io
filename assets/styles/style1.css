@@ -8,22 +8,6 @@ body {
   min-height: 100vh;
 }
 
-aside {
-  margin-left: 16px;
-  padding:    2px 6px ;
-  font-weight: bold;
-  
-}
-
-
-article button {
-  margin-left: 16px;
-  border: 0;
-  border-radius: 999px;
-  padding:    6px 16px ;
-  font-weight: bold;
-}
-
 #imgLinkedin:hover{
     -webkit-transform: scale(1.5);
     -moz-transform: scale(1.5);
@@ -33,7 +17,7 @@ article button {
 }
 
 #imgLinkedin {
-  width: 80%;
+  width: 50%;
   height: 0%;
 }
 
@@ -68,20 +52,10 @@ article header div {
   flex-direction: column;
 }
 
+/* */
 article header span {
   opacity: .6;
 }
-
-
-
-
-article {
-  display: flex;
-  align-items: center;
-  color: #fff;
-  font-size:2rem;
-}
-
 
 @media (max-width: 600px) {
   article {
@@ -91,4 +65,29 @@ article {
     font-size:1.9rem;
     padding: 5%;
   }
+
+  aside {
+    background-color: aqua;
+    font-weight: bold;
+    font-size:2rem;
+    padding: 0.5%;
+    align-items: right;
+
+  }
 }
+
+
+article {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size:2rem;
+  padding: 2%;
+}
+
+aside {
+  margin-left: 16px;
+  padding:    2px 6px ;
+  font-weight: bold;
+}
+
