@@ -1,92 +1,12 @@
-/* Estilos generales */
+
 body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
-  color: #333;
-  background-color: #f5f5f5;
   margin: 0;
-  padding: 0;
- 
+  background: #222;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
 }
-
-/* Encabezado */
-header {
-  background-color: #0275d8;
-  color: #fff;
-  padding: 1rem;
-}
-
-header h1 {
-  margin: 0;
-  font-size: 2rem;
-}
-
-header nav {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-}
-
-header nav ul {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  list-style: none;
-}
-
-header nav ul li {
-  margin-left: 1rem;
-}
-
-header nav ul li a {
-  color: #fff;
-  text-decoration: none;
-}
-
-/* Sección principal */
-section {
-  padding: 2rem;
-}
-
-/* Formulario de contacto */
-form {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-form label {
-  width: 100%;
-  font-weight: bold;
-  margin-bottom: 0.5rem;
-}
-
-form input, form textarea {
-  padding: 0.5rem;
-  margin-bottom: 1rem;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-form input[type="submit"] {
-  background-color: #0275d8;
-  color: #fff;
-  padding: 0.75rem 1.5rem;
-  border: none;
-  cursor: pointer;
-}
-
-form input[type="submit"]:hover {
-  background-color: #025aa5;
-}
-
-img {
-  width: 20%;
-  height: 20%;
-  background-size: cover;
-  border-radius: 30%;
-}
-
 #imgLinkedin:hover{
     -webkit-transform: scale(1.5);
     -moz-transform: scale(1.5);
@@ -96,26 +16,48 @@ img {
 }
 
 #imgLinkedin {
-  width: 4%;
+  width: 80%;
   height: 0%;
+}
 
+#profileImg {
+  border-radius: 10%;
+  width:  40%;
+  height: 40%;
+}
+#linkCv {
+  color: #fff;
 
 }
 
-#footer {
-  display: grid;
+article {
+  display: flex;
   align-items: center;
-  background-color: #0275d8;
-}
-a {
-  color: #000000;
-  padding: 10px;
-  text-decoration: none;
+  color: #fff;
+  font-size:.8rem;
 }
 
-#contacto1 {
-  display:flex;
-  flex-direction: row;
-  justify-content: left;
+article header {
+  display: flex;
+  align-items: center;
+  gap : 4px;
 }
-  
+
+article header div {
+  display: flex;
+  flex-direction: column;
+}
+
+article header span {
+  opacity: .6;
+}
+
+article button {
+  margin-left: 16px;
+  border: 0;
+  border-radius: 999px;
+  padding:    6px 16px ;
+  font-weight: bold;
+}
+
+
