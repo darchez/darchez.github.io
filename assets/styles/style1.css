@@ -61,3 +61,11 @@ article button {
 }
 
 
+@media (min-width: 800px) {
+  article {
+    display: flex;
+    align-items: center;
+    color: #4e0909;
+    font-size:2rem;
+  }
+}
