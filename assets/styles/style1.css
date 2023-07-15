@@ -65,7 +65,25 @@ article header span {
   border-color: black;
 }
 
-
+aside {
+  font-size:1.2rem;
+  display: flex;
+  align-items: center;
+}
+aside text {
+  font-size:1.5rem;
+  color:darkslategray
+}
+aside a {
+  color:white;
+  text-decoration: none;
+}
+aside li {
+  list-style-type: none;
+}
+aside h4 {
+  color:darkslategray
+}
 
 @media (max-width: 600px) {
   article {
