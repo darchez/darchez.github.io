@@ -1,32 +1,54 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>./</title>
-    <link rel="stylesheet" type="text/css" href="./assets/styles/style1.css">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/style1.css" />
   </head>
   <body>
     <article>
       <header>
-          <img id="profileImg"alt="foto de perfil de Alfonso" src="./assets/img/profile.jpeg" />
-          <div>
-              <strong>Alfonso Darchez</strong>
-              <span>@darchez</span>
-          </div>
+        <img
+          id="profileImg"
+          alt="foto de perfil de Alfonso"
+          src="./assets/img/profile.jpeg"
+        />
+        <div>
+          <strong>Alfonso Darchez</strong>
+          <span>@darchez</span>
+        </div>
       </header>
+      <section>
+        <a href="https://www.linkedin.com/in/alfonsodarchez/" target="_blank">
+          <img src="./assets/img/linkedin--v2.png" id="imgLinkedin" alt="" />
+        </a>
+
+        <a href="./assets/docs/Alfonso Darchez cv.pdf" id="linkCv" target="_blank">
+          <button id="botonCv">
+            Download
+            <strong>CV</strong>
+          </button>
+        </a>
+      </section>
       <aside>
-        <a href="https://www.linkedin.com/in/alfonsodarchez/"><img src="./assets/img/linkedin--v2.png" id="imgLinkedin" alt=""></a>
-
-            <a href="./assets/docs/Alfonso Darchez cv.pdf" id="linkCv">
-              <button id="botonCv">Download <strong> CV</strong></button>
-            </a> 
-  
+        <ul>
+          <h4>
+            {...Proyectos}
+          </h4>
+          <li>
+            API de misiones espaciales React, Vite, ChackraUI ->
+            <a href="https://space-xapi.vercel.app/" target="_blank">
+              <text>SpaceX API</text>
+            </a>
+          </li>
+          <li>
+            Vanilla javascript, persistencia de datos en navegador ->
+            <a href="https://23propositos.vercel.app/" target="_blank">
+              <text>ToDo</text>
+            </a>
+          </li>
+        </ul>
       </aside>
-  </article>
-
-
+    </article>
   </body>
 </html>
-
-
-
